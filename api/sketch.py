@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 import sqlite3
 from fastapi.responses import FileResponse
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 app = FastAPI(
     title="BlazinglyFast - API",
@@ -20,7 +23,9 @@ async def favicon():
 async def weewx_datapoints(limit: int = 1):
     return datas_to_json(get_data_from_db(limit))
 
-
+@app.get("/plot")
+async def plotting():
+    return []
 
 def get_data_from_db(limit = 1):
     connection = sqlite3.connect("/var/lib/weewx/weewx.sdb")
