@@ -10,9 +10,6 @@ import RPi.GPIO as GPIO
 from dragino import Dragino
 import sqlite3
 from sys import argv
-from pandas import pd
-from 
-
 
 def main(): 
     send_to_gateway()

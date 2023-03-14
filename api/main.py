@@ -52,7 +52,7 @@ def datas_to_json(data):
 
 def data_to_json(data):
     return {
-        "date": data[0],
+        "date": data[0][11:16],
         "temp": round((data[1] - 32.0) * (5/9), 1),
         "baro": data[2],
         "humi": data[3],
