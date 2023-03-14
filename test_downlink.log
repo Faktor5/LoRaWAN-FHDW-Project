@@ -1,0 +1,28 @@
+2023-02-07 14:50:17,586 - <module> - 23 - INFO - Starting session
+2023-02-07 14:50:18,044 - __init__ - 361 - INFO - Using ABP mode
+2023-02-07 14:50:18,044 - _convert_array - 480 - DEBUG - Converted 4/4 items
+2023-02-07 14:50:18,045 - _convert_array - 480 - DEBUG - Converted 16/16 items
+2023-02-07 14:50:18,045 - _convert_array - 480 - DEBUG - Converted 16/16 items
+2023-02-07 14:50:18,045 - __init__ - 389 - DEBUG - GPS Baud Rate: 9600
+2023-02-07 14:50:18,045 - __init__ - 390 - DEBUG - GPS Serial Port: /dev/serial1
+2023-02-07 14:50:18,045 - __init__ - 391 - DEBUG - GPS Serial Timeout: 1
+2023-02-07 14:50:18,045 - __init__ - 392 - DEBUG - GPS Wait Period: 10
+2023-02-07 14:50:18,046 - __init__ - 393 - DEBUG - Spreading factor: 7
+2023-02-07 14:50:18,046 - __init__ - 394 - DEBUG - Max Power: 0F
+2023-02-07 14:50:18,046 - __init__ - 395 - DEBUG - Output Power: 0E
+2023-02-07 14:50:18,046 - __init__ - 396 - DEBUG - Sync Word: 34
+2023-02-07 14:50:18,046 - __init__ - 397 - DEBUG - RX CRC: True
+2023-02-07 14:50:18,046 - __init__ - 398 - DEBUG - Frame Count Filename: .lora_fcount
+2023-02-07 14:50:18,046 - __init__ - 399 - DEBUG - Auth mode: ABP
+2023-02-07 14:50:18,046 - __init__ - 401 - DEBUG - Device Address: 26 0B 36 6A
+2023-02-07 14:50:18,047 - __init__ - 404 - DEBUG - Network Session Key: 31 40 06 B2 AF A4 55 63 D5 1C BE 91 A5 F7 C0 98
+2023-02-07 14:50:18,047 - __init__ - 407 - DEBUG - App Session Key: B2 B7 52 44 6D FC 50 24 46 17 17 E3 CD D2 05 6A
+2023-02-07 14:50:18,049 - setDownlinkCallback - 109 - INFO - Setting downlinkCallback to <function downlinkCallback at 0xb6691268>
+2023-02-07 14:50:18,049 - join - 221 - DEBUG - Nonce = [155, 27]
+2023-02-07 14:50:18,049 - join - 223 - INFO - Using ABP no need to Join
+2023-02-07 14:50:18,050 - _choose_freq - 123 - INFO - Frequency = 867.5
+2023-02-07 14:50:18,050 - send_bytes - 276 - DEBUG - Frame count 3
+2023-02-07 14:50:18,052 - send_bytes - 279 - DEBUG - Packet = [64, 106, 54, 11, 38, 0, 3, 0, 1, 133, 43, 59, 216, 147, 10, 189, 51, 113]
+2023-02-07 14:50:18,053 - send_bytes - 283 - INFO - Succeeded on attempt 1/3
+2023-02-07 14:50:18,053 - save_fcount - 452 - DEBUG - Saving fcount
+2023-02-07 14:50:18,104 - on_tx_done - 206 - DEBUG - TX Complete
