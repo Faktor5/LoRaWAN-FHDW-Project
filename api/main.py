@@ -47,13 +47,17 @@ def get_data_from_db(limit = 1):
 
 def datas_to_json(data):
     return {
-        "data" : [data_to_json(i) for i in data ]
+        "data" : [(data_to_json(i)) for i in data ]
     }
+
+def handleEmpty(some):
+    # return { k: (0 if v is None else v) for k,v in some.items() }
+    return 0.0 if some is None else some
 
 def data_to_json(data):
     return {
         "date": data[0],
-        "temp": round((data[1] - 32.0) * (5/9), 1),
+        "temp": round((handleEmpty(data[1]) - 32.0) * (5/9), 1),
         "baro": data[2],
         "humi": data[3],
         "pres": data[4],
